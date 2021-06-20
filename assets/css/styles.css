@@ -656,3 +656,41 @@ nav__logo {
 }
 
 /* /////////////////// */
+.box-laptop {
+  background: url(https://up.20script.ir/file/c5dc-00569f3a20d5c5a.jpg)
+    no-repeat;
+  max-width: 260px;
+  min-height: 521px;
+  background-size: 260px 520px;
+  position: relative;
+  margin: 0 auto;
+}
+.box-tasvir {
+  overflow: hidden;
+  height: 391px;
+  width: 225px;
+  position: absolute;
+  left: 18px;
+  top: 63px;
+}
+@keyframes masihscroll {
+  0% {
+    transform: translateY(0%);
+  }
+  50% {
+    transform: translateY(-60%);
+  }
+  100% {
+    transform: translateY(-0%);
+  }
+}
+.box-tasvir img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  transition: all 3s;
+  animation-duration: 25s;
+  animation-name: masihscroll;
+  animation-iteration-count: 1000;
+}
+
