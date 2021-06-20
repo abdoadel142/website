@@ -61,6 +61,9 @@ window.addEventListener('scroll', scrollTop)
 
 /*==================== DARK LIGHT THEME ====================*/ 
 const themeButton = document.getElementById('theme-button')
+const logo_img = document.getElementById('nav-log-img')
+
+
 const darkTheme = 'dark-theme'
 const iconTheme = 'bx-toggle-right'
 
@@ -87,6 +90,9 @@ themeButton.addEventListener('click', () => {
     // We save the theme and the current icon that the user chose
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
+    const img_togle = document.body.classList.contains(darkTheme) ? 'assets/img/main-logo.png' : 'assets/img/white-logo.png'
+
+    logo_img.src = img_togle;
 })
 
 /*==================== SCROLL REVEAL ANIMATION ====================*/

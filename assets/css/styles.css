@@ -4,8 +4,10 @@
 /*===== VARIABLES CSS =====*/
 :root {
   --header-height: 3rem;
+  --img-logo: "assets/img/boy.png";
 
   /*========== Colors ==========*/
+
   --first-color: #5c075c;
   --first-color-alt: #2d102d;
   --first-color-send: #400b40;
@@ -136,7 +138,9 @@ img {
 .l-main {
   overflow: hidden;
 }
-
+.log-img {
+  src: var(--img-logo);
+}
 .bd-container {
   max-width: 968px;
   width: calc(100% - 3rem);
@@ -367,6 +371,9 @@ nav__logo {
 .decoration__data:hover {
   box-shadow: 0 3px 12px rgba(65, 11, 16, 0.15);
   background-color: var(--first-color);
+}
+.decoration__data:hover .decoration__title {
+  color: #fff;
 }
 
 .decoration__img {
@@ -693,4 +700,3 @@ nav__logo {
   animation-name: masihscroll;
   animation-iteration-count: 1000;
 }
-
