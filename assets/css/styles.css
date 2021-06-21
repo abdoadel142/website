@@ -4,7 +4,6 @@
 /*===== VARIABLES CSS =====*/
 :root {
   --header-height: 3rem;
-  --img-logo: "assets/img/boy.png";
 
   /*========== Colors ==========*/
 
@@ -69,7 +68,7 @@ body.dark-theme {
   --title-color: #f3f1f1;
   --text-color: #d1c7c8;
   --body-color: #390039;
-  --container-color: #302728;
+  --container-color: #a863a8;
 }
 
 /*========== Button Dark/Light ==========*/
@@ -123,7 +122,7 @@ img {
 
 /*========== CLASS CSS ==========*/
 .section {
-  padding: 2rem 0 2rem;
+  /* padding: 2rem 0 2rem; */
 }
 
 .section-title,
@@ -142,7 +141,7 @@ img {
   src: var(--img-logo);
 }
 .bd-container {
-  max-width: 968px;
+  max-width: 980px;
   width: calc(100% - 3rem);
   margin-left: var(--mb-3);
   margin-right: var(--mb-3);
@@ -165,6 +164,8 @@ img {
 /*========== NAV ==========*/
 .nav {
   height: var(--header-height);
+  /* background-color: #2d102d; */
+
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -386,12 +387,12 @@ nav__logo {
 }
 
 /*========== ACCESSORIES ==========*/
-.accessory__container {
+.Parteners__container {
   grid-template-columns: repeat(2, 1fr);
   padding-bottom: 2rem;
 }
 
-.accessory__content {
+.Parteners__content {
   position: relative;
   display: grid;
   padding: 0.25rem 0.75rem 0.75rem;
@@ -400,37 +401,37 @@ nav__logo {
   border-radius: 1rem;
 }
 
-.accessory__content:hover {
-  box-shadow: 0 3px 12px rgba(65, 11, 16, 0.15);
+.Parteners__content:hover {
+  box-shadow: 0 7px 12px rgba(2, 2, 2, 0.15);
 }
 
-.accessory__img {
+.Parteners__img {
   width: 110px;
   justify-self: center;
   margin-bottom: 0.25rem;
 }
 
-.accessory__title,
-.accessory__category {
+.Parteners__title,
+.Parteners__category {
   text-align: center;
 }
 
-.accessory__title {
+.Parteners__title {
   font-size: var(--normal-font-size);
 }
 
-.accessory__category {
+.Parteners__category {
   font-size: var(--small-font-size);
   margin-bottom: var(--mb-1);
   color: var(--text-color-light);
 }
 
-.accessory__preci {
+.Parteners__preci {
   font-weight: var(--font-semi-bold);
   color: var(--title-color);
 }
 
-.accessory__button {
+.Parteners__button {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -609,26 +610,26 @@ nav__logo {
     padding: 0 2rem;
   }
 
-  .accessory__container {
+  .Parteners__container {
     grid-template-columns: repeat(3, 224px);
     justify-content: center;
   }
 
-  .accessory__content {
+  .Parteners__content {
     padding: 0.5rem 1.5rem 1.5rem;
   }
 
-  .accessory__img {
+  .Parteners__img {
     width: 120px;
     margin-bottom: var(--mb-1);
   }
 
-  .accessory__title,
-  .accessory__category {
+  .Parteners__title,
+  .Parteners__category {
     text-align: initial;
   }
 
-  .accessory__button {
+  .Parteners__button {
     padding: 0.75rem;
   }
 

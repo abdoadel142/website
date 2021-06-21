@@ -14,7 +14,7 @@ textarea {
 .con {
   display: flex;
   justify-content: space-between;
-  background-color: #983aea;
+  background-color: #5c075c;
 }
 .titlelogo {
   color: #fff;
@@ -23,8 +23,8 @@ textarea {
 
 .languages {
   padding: 0.6rem 1.3rem;
-  background-color: #983aea;
-  border: 2px solid #983aea;
+  background-color: #5c075c;
+  border: 2px solid #5c075c;
   font-size: 0.95rem;
   color: #ffffff;
   line-height: 1;
@@ -65,7 +65,7 @@ textarea {
 }
 
 .contact-form {
-  background-color: #983aea;
+  background-color: #5c075c;
   position: relative;
 }
 
@@ -102,7 +102,7 @@ textarea {
   border-radius: 25px;
   transition: 0.3s;
   /* // */
-  background-color: #983aea;
+  background-color: #5c075c;
   /*
   color: white;
   padding: 12px;
@@ -129,7 +129,7 @@ textarea {
   position: absolute;
   width: 26px;
   height: 26px;
-  background-color: #983aea;
+  background-color: #5c075c;
   transform: rotate(45deg);
   top: 50px;
   left: -13px;
@@ -201,7 +201,7 @@ textarea.input {
   background-color: #fff;
   border: 2px solid #fafafa;
   font-size: 0.95rem;
-  color: #8a15f0;
+  color: #5c075c;
   line-height: 1;
   border-radius: 25px;
   outline: none;
@@ -235,7 +235,7 @@ textarea.input {
   opacity: 0;
   transition: 0.3s;
   height: 5px;
-  background-color: #983aea;
+  background-color: #5c075c;
   top: 50%;
   transform: translateY(-50%);
 }
@@ -267,7 +267,7 @@ textarea.input {
 }
 
 .contact-info .title {
-  color: #983aea;
+  color: #5c075c;
 }
 
 .text {
@@ -309,7 +309,7 @@ textarea.input {
   width: 35px;
   height: 35px;
   border-radius: 5px;
-  background: linear-gradient(45deg, #983aea, #8a15f0);
+  background: linear-gradient(45deg, #5c075c, #810c81);
   color: #fff;
   text-align: center;
   line-height: 35px;
@@ -326,7 +326,7 @@ textarea.input {
   position: absolute;
   width: 110px;
   height: 100px;
-  border: 22px solid #983aea;
+  border: 22px solid #5c075c;
   border-radius: 50%;
   bottom: -77px;
   right: 50px;
@@ -350,7 +350,7 @@ h6 {
   width: 500px;
   height: 500px;
   border-radius: 50%;
-  background: linear-gradient(to bottom, #983aea, #8a15f0);
+  background: linear-gradient(to bottom, #5c075c, #b313b3);
   bottom: 50%;
   right: 50%;
   transform: translate(-40%, 38%);

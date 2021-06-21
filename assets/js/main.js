@@ -104,7 +104,7 @@ const sr = ScrollReveal({
 
 sr.reveal(`.home__data, .home__img, 
            .decoration__data,
-           .accessory__content,
+           .Parteners__content,
            .footer__content`, {
     origin: 'right',
     interval: 200,
@@ -273,6 +273,18 @@ function setLanugage(getLanuage){
     vendors_button.dir="ltr"
     vendors_button.innerHTML = "Want to boost your revenues?";
     contact_us_foooter.innerHTML = "Contact Us"
+    footer.dir= "ltr";
+    sdev.innerHTML = "Software Development"
+    vapp.innerHTML= "VOOOM Application"
+    vmarket.innerHTML="VOOOM Market "
+    stitle.innerHTML = "Our Services" 
+    social_title.dir = "ltr";
+    social_title.innerHTML = "Social"
+    our_title.innerHTML = "Our Company"
+    Careers.innerHTML = "Cariers";
+    about_us.innerHTML = "About US";
+    media_footer.innerHTML= "Media";
+    contact_us_foooter.innerHTML = "Contact US"
 
     }
 
