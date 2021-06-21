@@ -238,13 +238,13 @@ function setLanugage(getLanuage){
         about.innerHTML = "About";
         services.innerHTML = "Services";
         media.innerHTML = "Media";
-        home__title.innerHTML = "Vooom it"
+        home__title.innerHTML = " VOOOM IT"
         home__description.innerHTML = "To simplify every day of people’s lives"
         home__button.innerHTML = "Download App"
         section_title.innerHTML = "Our Services";
         decoration__title.innerHTML = "Software Development";
-        decoration__title2.innerHTML = "Vooom Market";
-        decoration__title3.innerHTML = "Vooom App";
+        decoration__title2.innerHTML = "VOOOM Market";
+        decoration__title3.innerHTML = "VOOOM App";
         section__button.innerHTML = "Read More";
         section__button2.innerHTML = "Read More";
         section__button3.innerHTML = "Read More";
@@ -253,7 +253,7 @@ function setLanugage(getLanuage){
         home__data.dir = "ltr";
         nav.dir="ltr";
         customer.innerHTML = "Customers";
-        customer_description.innerHTML= "Our customers are everyone who uses Vooom s solutions, including customers who seek an easier pattern in every thing in their lives, such as delivery for a product or service without worrying about it being out of your area or unreachable..";
+        customer_description.innerHTML= "Our customers are everyone who uses VOOOM s solutions, including customers who seek an easier pattern in every thing in their lives, such as delivery for a product or service without worrying about it being out of your area or unreachable..";
         customer_description.dir="ltr";
         customer.dir="ltr";
         customer_button.dir="ltr"
