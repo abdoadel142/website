@@ -153,12 +153,10 @@ let stitle = document.getElementById("stitle");
 let vapp = document.getElementById("vapp");
 let sdev = document.getElementById("sdev");
 let vmarket = document.getElementById("vmarket");
-let social_title = document.getElementById("social_title");
 let our_title = document.getElementById("our");
 let Careers = document.getElementById("Careers");
 let about_us = document.getElementById("about_us");
 let media_footer = document.getElementById("media_footer");
-let social_icons = document.getElementById("social_icons");
 
 contact_us_foooter = document.getElementById("contact_us_foooter");
 
@@ -225,14 +223,12 @@ function setLanugage(getLanuage) {
         vapp.innerHTML = "تطبيق فوووم"
         vmarket.innerHTML = "ڤوووم ماركت "
         stitle.innerHTML = "الخدمات"
-        social_title.dir = "rtl";
-        social_title.innerHTML = "التواصل الاجتماعي"
+
         our_title.innerHTML = "شركتنا"
         Careers.innerHTML = "وظائف";
         about_us.innerHTML = "من نحن";
         media_footer.innerHTML = "الاخبار";
         contact_us_foooter.innerHTML = "تواصل معنا"
-        social_icons.dir = "rtl"
     } else if (getLanuage === "english") {
 
         home.innerHTML = "Home";
@@ -279,8 +275,7 @@ function setLanugage(getLanuage) {
         vapp.innerHTML = "VOOOM Application"
         vmarket.innerHTML = "VOOOM Market "
         stitle.innerHTML = "Our Services"
-        social_title.dir = "ltr";
-        social_title.innerHTML = "Social"
+
         our_title.innerHTML = "Our Company"
         Careers.innerHTML = "Cariers";
         about_us.innerHTML = "About US";
