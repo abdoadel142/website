@@ -17,7 +17,7 @@
   --text-color: #5b5b57;
   --text-color-light: #8f8a8a;
   --body-color: #fefbfb;
-  --body1-color: #301630;
+  --body1-color: #222D32;
 
   --container-color: #fff;
 
@@ -336,13 +336,27 @@ justify-content: center;
   background-color: var(--first-color);
   color: #fff;
   padding: 1rem 1.5rem;
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   font-weight: var(--font-semi-bold);
   transition: 0.3s;
 }
 
 .button:hover {
   background-color: var(--first-color-alt);
+}
+.button1 {
+  /* display: inline-block; */
+  background-color: var(--first-color);
+  color: #fff;
+  padding: 1rem 1.3rem;
+  border-radius: 2rem;
+  font-weight: var(--font-semi-bold);
+  transition: 0.3s;
+}
+
+.button1:hover {
+  background-color: white;
+  color: var(--first-color);
 }
 
 .button-link {
@@ -704,7 +718,7 @@ justify-content: center;
   .share__img,
   .send__img,
   .send__img iframe {
-    width: 750px;
+    /* width: 550px; */
     
   /* height: 500px; */
   }
@@ -737,6 +751,7 @@ justify-content: center;
   left: 18px;
   top: 63px;
 }
+
 @keyframes masihscroll {
   0% {
     transform: translateY(0%);
@@ -757,3 +772,5 @@ justify-content: center;
   animation-name: masihscroll;
   animation-iteration-count: 1000;
 }
+
+

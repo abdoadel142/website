@@ -159,6 +159,8 @@ let about_us = document.getElementById("about_us");
 let media_footer = document.getElementById("media_footer");
 
 contact_us_foooter = document.getElementById("contact_us_foooter");
+contact_us_ = document.getElementById("contact_us_");
+
 
 select.onclick = () => {
     setLanugage(select.value);
@@ -229,6 +231,8 @@ function setLanugage(getLanuage) {
         about_us.innerHTML = "من نحن";
         media_footer.innerHTML = "الاخبار";
         contact_us_foooter.innerHTML = "تواصل معنا"
+        contact_us_.innerHTML = "تواصل معنا"
+
     } else if (getLanuage === "english") {
 
         home.innerHTML = "Home";
@@ -270,6 +274,8 @@ function setLanugage(getLanuage) {
         vendors_button.dir = "ltr"
         vendors_button.innerHTML = "Want to boost your revenues?";
         contact_us_foooter.innerHTML = "Contact Us"
+        contact_us_.innerHTML = "Contact Us"
+
         footer.dir = "ltr";
         sdev.innerHTML = "Software Development"
         vapp.innerHTML = "VOOOM Application"
@@ -281,6 +287,8 @@ function setLanugage(getLanuage) {
         about_us.innerHTML = "About US";
         media_footer.innerHTML = "Media";
         contact_us_foooter.innerHTML = "Contact US"
+        contact_us_.innerHTML = "Contact US"
+
 
     }
 
