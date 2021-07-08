@@ -176,7 +176,7 @@ onload = () => {
 function setLanugage(getLanuage) {
     if (getLanuage === "arabic") {
         select.select
-        home_img.src = "assets/img/Bike (4).png";
+        // home_img.src = "assets/Screenshot.png";
         home__data.dir = "rtl";
         hm.dir = "rtl";
         nav.dir = "rtl";
@@ -249,7 +249,7 @@ function setLanugage(getLanuage) {
         section__button.innerHTML = "Read More";
         section__button2.innerHTML = "Read More";
         section__button3.innerHTML = "Read More";
-        home_img.src = "assets/img/Bike (3).png";
+        // home_img.src = "assets/Screenshot.png";
         hm.dir = "ltr";
         home__data.dir = "ltr";
         nav.dir = "ltr";
